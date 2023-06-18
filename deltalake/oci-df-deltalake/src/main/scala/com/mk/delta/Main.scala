@@ -1,5 +1,7 @@
 package com.mk.delta
 
+import com.mk.iceberg.IcebergTable
+
 object Main {
 
   def main(args: Array[String]): Unit = {
@@ -16,7 +18,9 @@ object Main {
 
     println("\n" + inputPath +  ", " + deltaPath)
 
-    DeltaTable.csvToDelta(inputPath, deltaPath)
+//    IcebergTable.runIcebergSample(inputPath, parquetPath)
+
+    /* DeltaTable.csvToDelta(inputPath, deltaPath)
     DeltaTable.csvToParquet(inputPath,parquetPath)
     DeltaTable.show(deltaPath)
 
@@ -24,6 +28,7 @@ object Main {
 
     DeltaTable.runInSQL(parquetPath)
     DeltaTable.show(parquetPath)
+     */
   }
 
 }
