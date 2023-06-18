@@ -2,7 +2,7 @@ package com.mk.sample
 
 import com.mk.delta.DeltaTable
 
-object Sample {
+object DataFlowQuickStart {
   def main(args: Array[String]): Unit = {
 
     print("Starting delta lake sample run")
