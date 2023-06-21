@@ -19,3 +19,7 @@ application arguments
 s3a://mktestb1/samplecsv.csv oci://test@paasdevssspre/awsData/spark321 s3a://mktestb1/oci/deltaTabe
 ```
 application code [AWSS3DataReader.py](https://github.com/lnmohankumar/oci-dataflow/blob/main/quick-start/oci-df-sample-py/AWSS3DataReader.py)
+
+
+Note: The same configuration works with scala applications. 
+
