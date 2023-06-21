@@ -1,6 +1,8 @@
 ## Steps to read/write to AWS S3 object storage from OCI Data Flow
 
-Data Flow Spark 3.2.1, Python, Scala Applications. Connecting with AWS provided standard sdk, Here are the steps.
+Data Flow Spark 3.2.1, Python, Scala Applications. 
+
+Connecting with AWS provided standard sdk, Here are the steps.
 
 * Create a python application in Data Flow with below spark configuration. This will pull the AWS dependency libraries to the job at the runtime (no need provide dependency jar files in the archive).
 
