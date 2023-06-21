@@ -4,7 +4,7 @@ Data Flow Spark 3.2.1, Python, Scala Applications.
 
 Connecting with AWS provided standard sdk, Here are the steps.
 
-* Create a python application in Data Flow with below spark configuration. This will pull the AWS dependency libraries to the job at the runtime (no need provide dependency jar files in the archive).
+* Create a python application in Data Flow with below spark configuration. This will pull the AWS dependency libraries to the job at the runtime (no need provide dependency jar files in the archive). make sure the application is open to internet to download the dependency, else attach the archive file packaging the dependency refer [third party doc](https://github.com/lnmohankumar/oci-dataflow/blob/main/quick-start).
 
 ```
   spark.jars.packages : org.apache.hadoop:hadoop-aws:3.3.1,com.amazonaws:aws-java-sdk-s3:1.11.655,com.amazonaws:aws-java-sdk-s3:1.11.655,com.amazonaws:aws-java-sdk-core:1.11.655
